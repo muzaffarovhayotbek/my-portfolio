@@ -1,0 +1,51 @@
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-name h1 {
+  color: #020817;
+  font-size: 24px;
+  font-weight: 500;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: #0f172a;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 400;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.nav-list a:hover {
+  text-decoration: underline;
+}
+.footer-content p {
+  margin-top: 300px;
+  text-align: center;
+  font-size: 24px;
+  color: #334155;
+}
+.contant-nav {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+.nav-list a.active {
+  text-decoration: underline;
+}
+
+.contant-nav a {
+  font-family: 'Source Sans 3';
+  font-weight: 500;
+  color: #334155;
+}
