@@ -4,6 +4,7 @@ import MainLayouts from './layouts/MainLayouts';
 import Home from './pages/Home/Home';
 import Blog from './pages/Blog/Blog';
 import Me from './pages/me/Me';
+import ErrorPage from './pages/Error/ErrorPage';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             </MainLayouts>
           }
         ></Route>
+        <Route path='*' element = {<MainLayouts><ErrorPage></ErrorPage></MainLayouts>}></Route>
       </Routes>
     </div>
   );
