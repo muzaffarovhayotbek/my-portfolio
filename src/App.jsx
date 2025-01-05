@@ -34,7 +34,7 @@ function App() {
             </MainLayouts>
           }
         ></Route>
-        <Route path='*' element = {<MainLayouts><ErrorPage></ErrorPage></MainLayouts>}></Route>
+        <Route path='*' element = {<ErrorPage></ErrorPage>}></Route>
       </Routes>
     </div>
   );
