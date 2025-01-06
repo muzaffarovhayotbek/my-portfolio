@@ -1,6 +1,5 @@
 .header {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .header__container {
@@ -8,44 +7,65 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .my-name h1 {
   color: #020817;
   font-size: 24px;
   font-weight: 500;
+  font-family: 'Source Sans 3', sans-serif;
 }
+
 .nav-list {
   display: flex;
   gap: 20px;
   font-size: 14px;
   color: #0f172a;
 }
+
 .nav-list a {
   text-decoration: none;
   color: #0f172a;
   font-weight: 400;
-  transition: all 0.5s;
+  transition: text-decoration 0.3s ease;
   cursor: pointer;
 }
+
 .nav-list a:hover {
   text-decoration: underline;
 }
-.footer-content p {
-  margin-top: 300px;
-  text-align: center;
-  font-size: 24px;
-  color: #334155;
-}
-.contant-nav {
-  font-size: 18px;
-  text-align: center;
-  padding-top: 10px;
-}
+
 .nav-list a.active {
   text-decoration: underline;
 }
 
-.contant-nav a {
-  font-family: 'Source Sans 3';
+.footer-content {
+  text-align: center;
+
+  margin-left: 250px;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-content p {
+  text-align: center;
+  font-size: 24px;
+  color: #334155;
   font-weight: 500;
+}
+
+.contant-nav {
+  text-align: center;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  flex-direction: column;
+  display: flex;
+}
+
+.contant-nav a {
+  padding-top: 10px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   color: #334155;
 }
