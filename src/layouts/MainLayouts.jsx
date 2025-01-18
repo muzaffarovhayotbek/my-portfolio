@@ -8,7 +8,7 @@ function MainLayouts({ children }) {
       <header className="header">
         <div className="container header__container">
           <div className="my-name">
-            <h1>Hayotbekning Portfoliosi</h1>
+            <h1>hayotbekning portfoliosi</h1>
           </div>
           <div className="header-nav">
             <nav className="nav-list">

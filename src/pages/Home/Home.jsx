@@ -1,15 +1,24 @@
 import React from 'react';
 import me from '../../assets/hayotbek.jpg';
 import './Home.css';
+import { NavLink } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
-      <div className="my-about">
-        <div className="container">
-          <img src={me} alt="" width={170} height={170} />
-          <h2>Hayotbek Muzaffarov</h2>
-          <h4>Najot ta'lim o'quvchisi</h4>
+    <div className="home">
+      <div className="container home__container">
+        <div className="home-left">
+          <img src={me} alt="me photo" width={170} height={170} />
+          <div className="home-title">
+            <h2>Muzaffarov Hayotbek</h2>
+            <h4>Najot ta'lim o'quvchisi</h4>
+          </div>
+        </div>
+        <div className="home-buttons">
+          <button className="blog">Blog</button>
+          <button>
+            <NavLink to="/me">Haqimda</NavLink>
+          </button>
         </div>
       </div>
     </div>

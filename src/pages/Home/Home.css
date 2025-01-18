@@ -1,3 +1,49 @@
-.my-about {
+.home {
   margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.home-left {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.home-left img {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.home-title {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.home-title h2 {
+  font-size: 36px;
+  color: #020817;
+  margin: 0 0 4px;
+}
+
+.home-title h4 {
+  font-size: 24px;
+  color: #64748b;
+  margin: 0 0 8px;
+}
+.home-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.home-buttons button {
+  margin-top: 20px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 0.375rem;
+  background-color: white;
+  border: 1px solid var(--input-border, #ccc);
+  cursor: pointer;
+}
+.home-buttons a {
+  font-size: 14px;
+  color: #020817;
 }

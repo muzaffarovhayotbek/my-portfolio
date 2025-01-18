@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import Blog from './pages/Blog/Blog';
 import Me from './pages/me/Me';
 import ErrorPage from './pages/Error/ErrorPage';
+import Social from './pages/Social/Social';
 
 function App() {
   return (
@@ -34,7 +35,15 @@ function App() {
             </MainLayouts>
           }
         ></Route>
-        <Route path='*' element = {<ErrorPage></ErrorPage>}></Route>
+        <Route
+          path="/social"
+          element={
+            <MainLayouts>
+              <Social></Social>
+            </MainLayouts>
+          }
+        ></Route>
+        <Route path="*" element={<ErrorPage></ErrorPage>}></Route>
       </Routes>
     </div>
   );

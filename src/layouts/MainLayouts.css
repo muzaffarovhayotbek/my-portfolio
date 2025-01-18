@@ -12,7 +12,6 @@
   color: #020817;
   font-size: 24px;
   font-weight: 500;
-  font-family: 'Source Sans 3', sans-serif;
 }
 
 .nav-list {
@@ -20,6 +19,7 @@
   gap: 20px;
   font-size: 14px;
   color: #0f172a;
+  padding: 8px 16px;
 }
 
 .nav-list a {
@@ -40,7 +40,6 @@
 
 .footer-content {
   text-align: center;
-
   margin-left: 250px;
   position: fixed;
   bottom: 0;
