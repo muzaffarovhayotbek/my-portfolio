@@ -3,10 +3,12 @@ import './Me.css';
 
 function Me() {
   return (
-    <div>
+    <div className="">
       <div className="container me">
         <h2>Assalomu alaykum </h2>
         <p>Ismim Muzaffarov Hayotbek. Frontend dasturlash kursida o'qiyman </p>
+        <h3>Men 5-noyabr 2008-yil Farg'ona viloyatida tug'ilganman</h3>
+        <h4>Dasturlashga 14 yoshimdan qiziqqanman</h4>
       </div>
     </div>
   );
