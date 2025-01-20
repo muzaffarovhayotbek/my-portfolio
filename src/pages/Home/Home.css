@@ -71,4 +71,11 @@
     color: #64748b;
     margin: 0 0 6px;
   }
+  @media (max-width: 640px) {
+    .home-buttons {
+      justify-content: center;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
 }

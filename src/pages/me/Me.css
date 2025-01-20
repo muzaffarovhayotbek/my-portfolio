@@ -32,3 +32,8 @@
   font-weight: 400;
   font-family: 'Source Sans 3';
 }
+@media (max-width: 640px) {
+  .container{
+    padding: 20px;
+  }
+}
