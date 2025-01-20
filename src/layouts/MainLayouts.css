@@ -1,7 +1,9 @@
 .header {
   margin: 20px 0;
 }
-
+.container{
+  padding: 10px;
+}
 .header__container {
   display: flex;
   align-items: center;
@@ -66,4 +68,60 @@
   font-weight: 500;
   font-size: 16px;
   color: #334155;
+}
+
+
+@media (max-width: 578px) {
+  .header {
+    margin: 10px;
+  }
+  
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+  }
+  
+  .my-name h1 {
+    font-size: 18px;
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-direction: column  ;
+    gap: 10px;
+    font-size: 12px;
+    text-align: center; 
+  }
+
+  
+
+  
+  .footer-content {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .footer-content p {
+    font-size: 18px;
+  }
+  
+  .contant-nav {
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .contant-nav a {
+    padding-top: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #334155;
+  }
+  
 }

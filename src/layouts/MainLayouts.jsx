@@ -12,7 +12,9 @@ function MainLayouts({ children }) {
           </div>
           <div className="header-nav">
             <nav className="nav-list">
-            <NavLink to="/" activeClassName="active">Bosh sahifa</NavLink>
+              <NavLink to="/" activeClassName="active">
+                Bosh sahifa
+              </NavLink>
 
               <NavLink to="/blog">Blog</NavLink>
               <NavLink to="/me">Haqimda</NavLink>
@@ -26,7 +28,7 @@ function MainLayouts({ children }) {
       <footer>
         <div className="footer-content container">
           <p>Hayotbek Muzaffarov - 2025</p>
-          <nav className='contant-nav'>
+          <nav className="contant-nav">
             <NavLink to="/social">Ijtimoiy tarmoqlar</NavLink>
           </nav>
         </div>
