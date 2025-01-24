@@ -27,10 +27,7 @@ function MainLayouts({ children }) {
 
       <footer>
         <div className="footer-content container">
-          <p>Hayotbek Muzaffarov - 2025</p>
-          <nav className="contant-nav">
-            <NavLink to="/social">Ijtimoiy tarmoqlar</NavLink>
-          </nav>
+          <h2>Hayotbek Muzaffarov</h2>
         </div>
       </footer>
     </div>

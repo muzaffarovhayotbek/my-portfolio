@@ -15,7 +15,9 @@ function Home() {
           </div>
         </div>
         <div className="home-buttons">
-          <button className="blog">Blog</button>
+          <button>
+            <NavLink to="/blog">Blog</NavLink>
+          </button>
           <button>
             <NavLink to="/me">Haqimda</NavLink>
           </button>

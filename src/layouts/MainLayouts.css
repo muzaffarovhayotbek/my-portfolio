@@ -42,8 +42,8 @@
 
 .footer-content {
   text-align: center;
-  position: fixed;
-  bottom: 0;
+  /* position: fixed; */
+  /* bottom: 0; */
 }
 
 .footer-content p {
@@ -99,17 +99,7 @@
     font-size: 12px;
   }
 
-  .footer-content p {
+  .footer-content h2 {
     font-size: 18px;
-  }
-
-  .contant-nav {
-    font-size: 18px;
-    padding-top: 8px;
-  }
-
-  .contant-nav a {
-    padding-top: 8px;
-    font-size: 14px;
   }
 }

@@ -4,7 +4,6 @@
 }
 
 .home-left {
-  width: 900px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -43,7 +42,7 @@
   border: 1px solid var(--input-border, #ccc);
   cursor: pointer;
 }
-.home-buttons a {
+.home-buttons  {
   font-size: 14px;
   color: #020817;
 }
@@ -54,7 +53,6 @@
     margin-bottom: 80px;
   }
   .home-left {
-    width: 880px;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -64,18 +62,13 @@
   }
   .home-title h2 {
     font-size: 24px;
-    margin: 0 0 2px;
   }
   .home-title h4 {
     font-size: 20px;
-    color: #64748b;
-    margin: 0 0 6px;
   }
-  @media (max-width: 640px) {
-    .home-buttons {
-      justify-content: center;
-      flex-direction: column;
-      gap: 12px;
-    }
+  .home-buttons {
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
   }
 }
