@@ -41,34 +41,71 @@
   background-color: white;
   border: 1px solid var(--input-border, #ccc);
   cursor: pointer;
+  font-size: 16px;
 }
-.home-buttons  {
-  font-size: 14px;
+.home-buttons {
   color: #020817;
 }
 
 @media (max-width: 640px) {
   .home {
-    margin-top: 100px;
-    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 70px;
   }
+
   .home-left {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 15px;
   }
+
   .home-title {
-    gap: 12px;
+    gap: 14px;
   }
   .home-title h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
+
   .home-title h4 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .home-buttons {
-    justify-content: center;
+    display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 7px;
+  }
+  .home-buttons button {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .home {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .home-left {
+    gap: 15px;
+  }
+
+  .home-title {
+    gap: 8px;
+  }
+  .home-title h2 {
+    font-size: 16px;
+  }
+
+  .home-title h4 {
+    font-size: 14px;
+  }
+  .home-buttons {
+    gap: 4px;
+  }
+  .home-buttons button {
+    margin-top: 8px;
+    font-size: 8px;
   }
 }

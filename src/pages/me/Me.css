@@ -9,14 +9,14 @@
 .me h2 {
   margin-top: 10px;
   padding-bottom: 8px;
-  font-size: 16px;
+  font-size: 18px;
   color: #020817;
   font-family: 'Source Sans 3';
 }
 
 .me p {
   width: 400px;
-  font-size: 16px;
+  font-size: 18px;
   color: #020817;
   font-weight: 400;
   font-family: 'Source Sans 3';
@@ -24,7 +24,7 @@
 
 .me h3 {
   width: 400px;
-  font-size: 16px;
+  font-size: 18px;
   color: #020817;
   font-weight: 400;
   font-family: 'Source Sans 3';
@@ -32,7 +32,7 @@
 
 .me h4 {
   width: 400px;
-  font-size: 16px;
+  font-size: 18px;
   color: #020817;
   font-weight: 400;
   font-family: 'Source Sans 3';
@@ -40,14 +40,8 @@
 
 .me h5 {
   width: 400px;
-  font-size: 16px;
+  font-size: 18px;
   color: #020817;
   font-weight: 400;
   font-family: 'Source Sans 3';
-}
-
-@media (max-width: 640px) {
-  .container {
-    padding: 20px;
-  }
 }
