@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function MainLayouts({ children }) {
   return (
     <div>
-      <header className="header">
+      <header className="header h-full">
         <div className="container header__container">
           <div className="my-name">
             <h1>hayotbekning portfoliosi</h1>
@@ -16,8 +16,10 @@ function MainLayouts({ children }) {
                 Bosh sahifa
               </NavLink>
 
-              <NavLink to="/blog">Blog</NavLink>
               <NavLink to="/me">Haqimda</NavLink>
+              <NavLink to="*">Loyihalar</NavLink>
+
+              <NavLink to="/blog">Blog</NavLink>
             </nav>
           </div>
         </div>

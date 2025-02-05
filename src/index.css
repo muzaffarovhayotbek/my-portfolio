@@ -1,4 +1,4 @@
-/* @import url('./fonts.css'); */
+@import url('./fonts.css');
 
 *,
 *::after,
@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:  sans-serif;
+  font-family: sans-serif;
 }
 
 ul,
@@ -44,3 +44,4 @@ body {
   padding-left: 5rem;
   padding-right: 5rem;
 }
+@import "tailwindcss";
