@@ -1,6 +1,7 @@
 import React from 'react';
 import me from '../../assets/hayotbek.jpg';
 import './ErrorPage.css';
+import { NavLink } from 'react-router-dom';
 
 function ErrorPage() {
   return (
@@ -9,11 +10,11 @@ function ErrorPage() {
         <div className="error-container">
           <h2>404</h2>
           <p>Bunday sahifa mavjud emas</p>
-          <a href="/" className="">
+          <NavLink to="/" className="">
             Bosh sahifaga qaytish
-          </a>
+          </NavLink>
         </div>
-        <img src={me} alt="" />
+        <img src={me} alt="me" />
       </div>
     </div>
   );

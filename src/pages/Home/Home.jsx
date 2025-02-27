@@ -13,6 +13,7 @@ function Home() {
             <h2 className="text-2xl font-medium mb-1 sm:text-4xl">
               Muzaffarov Hayotbek
             </h2>
+            <h3>Frontend dasturchi</h3>
             <h4 className="text-slate-500 text-lg font-medium mb-2 sm:text-2xl">
               Najot ta'lim o'quvchisi
             </h4>
